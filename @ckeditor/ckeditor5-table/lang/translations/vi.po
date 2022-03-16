@@ -245,7 +245,7 @@ msgid "The value is invalid. Try \"10px\" or \"2em\" or simply \"2\"."
 msgstr ""
 
 msgctxt "The label used by assistive technologies describing a button that opens a color picker, where user can choose a configured color for a certain properties (eg.: background color, color, border-color etc.)."
-msgid "Color picker"
+msgid "Chọn màu"
 msgstr ""
 
 msgctxt "The button label for the table toolbar hiding caption attached to the table."

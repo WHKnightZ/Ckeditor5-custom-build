@@ -292,11 +292,11 @@ export const defaultColors = [
   },
   {
     color: "hsl(174, 96%, 18%)",
-    label: "Dark green",
+    label: "Xanh lục",
   },
   {
     color: "hsl(28, 96%, 48%)",
-    label: "Dark orange",
+    label: "Cam đậm",
   },
   {
     color: "hsl(0, 0%, 20%)",
