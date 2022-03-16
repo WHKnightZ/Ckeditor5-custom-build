@@ -58,7 +58,7 @@ export default class FontColorEditing extends Plugin {
           label: "Grey",
         },
         {
-          color: "hsl(0, 0%, 90%)",
+          color: "hsl(200, 2%, 49%)",
           label: "Light grey",
         },
         // {
