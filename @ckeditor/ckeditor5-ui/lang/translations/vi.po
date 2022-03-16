@@ -103,3 +103,11 @@ msgstr "Xanh biển"
 msgctxt "Label of a button that applies a purple color in color pickers."
 msgid "Purple"
 msgstr "Tím"
+
+msgctxt "Label of a button that applies a dark green color in color pickers."
+msgid "Dark green"
+msgstr "Xanh lục"
+
+msgctxt "Label of a button that applies a dark orange color in color pickers."
+msgid "Dark orange"
+msgstr "Cam đậm"
