@@ -9,11 +9,7 @@
 
 import { Plugin } from "ckeditor5/src/core";
 import FontColorCommand from "./fontcolorcommand";
-import {
-  FONT_COLOR,
-  renderDowncastElement,
-  renderUpcastAttribute,
-} from "../utils";
+import { FONT_COLOR, renderDowncastElement, renderUpcastAttribute } from "../utils";
 
 /**
  * The font color editing feature.
@@ -42,7 +38,7 @@ export default class FontColorEditing extends Plugin {
     editor.config.define(FONT_COLOR, {
       colors: [
         {
-          color: "hsl(0, 0%, 0%)",
+          color: "#000000",
           label: "Black",
         },
         {
@@ -50,15 +46,15 @@ export default class FontColorEditing extends Plugin {
           label: "Xanh lục",
         },
         {
-          color: "hsl(28, 96%, 48%)",
+          color: "#f27405",
           label: "Cam đậm",
         },
         {
-          color: "hsl(0, 0%, 20%)",
+          color: "#333333",
           label: "Grey",
         },
         {
-          color: "hsl(200, 2%, 49%)",
+          color: "#7a7e7f",
           label: "Light grey",
         },
         // {

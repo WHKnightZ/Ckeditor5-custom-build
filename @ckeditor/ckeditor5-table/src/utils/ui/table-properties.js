@@ -90,12 +90,7 @@ export function colorFieldValidator(value) {
 export function lengthFieldValidator(value) {
   value = value.trim();
 
-  return (
-    isEmpty(value) ||
-    isNumberString(value) ||
-    isLength(value) ||
-    isPercentage(value)
-  );
+  return isEmpty(value) || isNumberString(value) || isLength(value) || isPercentage(value);
 }
 
 /**
@@ -172,15 +167,7 @@ export function getBorderStyleDefinitions(view, defaultStyle) {
  * @param {Function} nameToValue A function that maps a button name to a value. By default names are the same as values.
  */
 export function fillToolbar(options) {
-  const {
-    view,
-    icons,
-    toolbar,
-    labels,
-    propertyName,
-    nameToValue,
-    defaultValue,
-  } = options;
+  const { view, icons, toolbar, labels, propertyName, nameToValue, defaultValue } = options;
   for (const name in labels) {
     const button = new ButtonView(view.locale);
 
@@ -287,7 +274,7 @@ export function fillToolbar(options) {
  */
 export const defaultColors = [
   {
-    color: "hsl(0, 0%, 0%)",
+    color: "#000000",
     label: "Black",
   },
   {
@@ -295,15 +282,15 @@ export const defaultColors = [
     label: "Xanh lục",
   },
   {
-    color: "hsl(28, 96%, 48%)",
+    color: "#f27405",
     label: "Cam đậm",
   },
   {
-    color: "hsl(0, 0%, 20%)",
+    color: "#333333",
     label: "Grey",
   },
   {
-    color: "hsl(200, 2%, 49%)",
+    color: "#7a7e7f",
     label: "Light grey",
   },
   // {
@@ -400,12 +387,8 @@ export function getLabeledColorInputCreator(options) {
       ariaDescribedById: statusUid,
     });
 
-    inputView
-      .bind("isReadOnly")
-      .to(labeledFieldView, "isEnabled", (value) => !value);
-    inputView
-      .bind("hasError")
-      .to(labeledFieldView, "errorText", (value) => !!value);
+    inputView.bind("isReadOnly").to(labeledFieldView, "isEnabled", (value) => !value);
+    inputView.bind("hasError").to(labeledFieldView, "errorText", (value) => !!value);
 
     inputView.on("input", () => {
       // UX: Make the error text disappear and disable the error indicator as the user

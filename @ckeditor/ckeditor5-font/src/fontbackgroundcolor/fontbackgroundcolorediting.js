@@ -11,11 +11,7 @@ import { Plugin } from "ckeditor5/src/core";
 import { addBackgroundRules } from "ckeditor5/src/engine";
 
 import FontBackgroundColorCommand from "./fontbackgroundcolorcommand";
-import {
-  FONT_BACKGROUND_COLOR,
-  renderDowncastElement,
-  renderUpcastAttribute,
-} from "../utils";
+import { FONT_BACKGROUND_COLOR, renderDowncastElement, renderUpcastAttribute } from "../utils";
 
 /**
  * The font background color editing feature.
@@ -131,10 +127,7 @@ export default class FontBackgroundColorEditing extends Plugin {
       view: renderDowncastElement("background-color"),
     });
 
-    editor.commands.add(
-      FONT_BACKGROUND_COLOR,
-      new FontBackgroundColorCommand(editor)
-    );
+    editor.commands.add(FONT_BACKGROUND_COLOR, new FontBackgroundColorCommand(editor));
 
     // Allow the font backgroundColor attribute on text nodes.
     editor.model.schema.extend("$text", {
