@@ -71,10 +71,26 @@ Editor.defaultConfig = {
   },
   language: "vi",
   image: {
-    toolbar: ["imageTextAlternative", "imageStyle:inline", "imageStyle:block", "imageStyle:side"],
+    toolbar: [
+      "imageTextAlternative",
+      "imageStyle:inline",
+      "imageStyle:block",
+      "imageStyle:side",
+    ],
   },
   table: {
-    contentToolbar: ["tableColumn", "tableRow", "mergeTableCells", "tableCellProperties", "tableProperties"],
+    contentToolbar: [
+      "tableColumn",
+      "tableRow",
+      "mergeTableCells",
+      "tableCellProperties",
+      "tableProperties",
+    ],
+    tableCellProperties: {
+      defaultProperties: {
+        width: "140px",
+      },
+    },
   },
   mediaEmbed: {
     previewsInData: true,

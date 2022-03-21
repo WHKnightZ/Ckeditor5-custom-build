@@ -46,7 +46,7 @@ export default class FontColorEditing extends Plugin {
           label: "Black",
         },
         {
-          color: "hsl(174, 96%, 18%)",
+          color: "#025951",
           label: "Xanh lục",
         },
         {
