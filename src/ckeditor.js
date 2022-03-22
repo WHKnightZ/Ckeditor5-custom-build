@@ -71,40 +71,15 @@ Editor.defaultConfig = {
   },
   language: "vi",
   image: {
-    toolbar: [
-      "imageTextAlternative",
-      "imageStyle:inline",
-      "imageStyle:block",
-      "imageStyle:side",
-    ],
+    toolbar: ["imageTextAlternative", "imageStyle:inline", "imageStyle:block", "imageStyle:side"],
   },
   table: {
-    contentToolbar: [
-      "tableColumn",
-      "tableRow",
-      "mergeTableCells",
-      "tableCellProperties",
-      "tableProperties",
-    ],
-    defaultHeadings: { rows: 1 },
-    defaultProperties: {
-      borderStyle: "dashed",
-      borderColor: "hsl(90, 75%, 60%)",
-      borderWidth: "3px",
-      alignment: "left",
-      width: "auto",
-      height: "40px",
-    },
-    // The default styles for table cells in the editor.
-    // They should be synchronized with the content styles.
-    tableCellProperties: {
-      defaultProperties: {
-        horizontalAlignment: "center",
-        verticalAlignment: "bottom",
-        padding: "10px",
-        width: "140px",
-      },
-    },
+    contentToolbar: ["tableColumn", "tableRow", "mergeTableCells", "tableCellProperties", "tableProperties"],
+    // defaultHeadings: { rows: 1 },
+    // defaultProperties: {},
+    // tableCellProperties: {
+    //   defaultProperties: {},
+    // },
   },
   mediaEmbed: {
     previewsInData: true,
