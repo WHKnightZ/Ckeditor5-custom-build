@@ -41,7 +41,6 @@
     "url": "https://github.com/ckeditor/ckeditor5/issues"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-dev-utils": "^25.4.5",
     "chalk": "^4.0.0",
     "rimraf": "^3.0.2",
     "semver": "^7.3.4",

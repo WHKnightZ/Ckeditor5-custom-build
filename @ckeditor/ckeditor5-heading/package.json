@@ -36,9 +36,7 @@
   "bugs": {
     "url": "https://github.com/ckeditor/ckeditor5/issues"
   },
-  "dependencies": {
-    "ckeditor5": "^32.0.0"
-  },
+  "dependencies": {},
   "description": "Headings feature for CKEditor 5.",
   "devDependencies": {
     "@ckeditor/ckeditor5-alignment": "^32.0.0",

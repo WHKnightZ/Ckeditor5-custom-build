@@ -36,11 +36,7 @@
   "bugs": {
     "url": "https://github.com/ckeditor/ckeditor5/issues"
   },
-  "dependencies": {
-    "@ckeditor/ckeditor5-core": "^32.0.0",
-    "@ckeditor/ckeditor5-ui": "^32.0.0",
-    "@ckeditor/ckeditor5-utils": "^32.0.0"
-  },
+  "dependencies": {},
   "description": "Upload feature for CKEditor 5.",
   "engines": {
     "node": ">=14.0.0",

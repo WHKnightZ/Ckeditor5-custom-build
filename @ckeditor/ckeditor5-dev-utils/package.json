@@ -58,7 +58,6 @@
     "url": "https://github.com/ckeditor/ckeditor5/issues"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-dev-webpack-plugin": "^25.4.5",
     "acorn": "^6.2.1",
     "acorn-walk": "^6.2.0",
     "chalk": "^3.0.0",

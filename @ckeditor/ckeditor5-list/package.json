@@ -36,10 +36,7 @@
   "bugs": {
     "url": "https://github.com/ckeditor/ckeditor5/issues"
   },
-  "dependencies": {
-    "@ckeditor/ckeditor5-ui": "^32.0.0",
-    "ckeditor5": "^32.0.0"
-  },
+  "dependencies": {},
   "description": "Ordered and unordered lists feature to CKEditor 5.",
   "devDependencies": {
     "@ckeditor/ckeditor5-basic-styles": "^32.0.0",

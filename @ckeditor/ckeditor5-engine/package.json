@@ -43,7 +43,6 @@
     "url": "https://github.com/ckeditor/ckeditor5/issues"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-utils": "^32.0.0",
     "lodash-es": "^4.17.15"
   },
   "description": "The editing engine of CKEditor 5 – the best browser-based rich text editor.",

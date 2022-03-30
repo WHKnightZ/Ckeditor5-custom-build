@@ -48,8 +48,6 @@
     "url": "https://github.com/ckeditor/ckeditor5/issues"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-core": "^32.0.0",
-    "@ckeditor/ckeditor5-utils": "^32.0.0",
     "lodash-es": "^4.17.15"
   },
   "description": "The UI framework and standard UI library of CKEditor 5.",
