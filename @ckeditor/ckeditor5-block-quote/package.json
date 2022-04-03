@@ -36,7 +36,9 @@
   "bugs": {
     "url": "https://github.com/ckeditor/ckeditor5/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ckeditor5": "^32.0.0"
+  },
   "description": "Block quote feature for CKEditor 5.",
   "devDependencies": {
     "@ckeditor/ckeditor5-basic-styles": "^32.0.0",

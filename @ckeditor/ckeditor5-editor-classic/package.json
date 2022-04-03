@@ -37,6 +37,7 @@
     "url": "https://github.com/ckeditor/ckeditor5/issues"
   },
   "dependencies": {
+    "ckeditor5": "^32.0.0",
     "lodash-es": "^4.17.15"
   },
   "description": "Classic editor implementation for CKEditor 5.",

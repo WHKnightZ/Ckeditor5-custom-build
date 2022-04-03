@@ -36,7 +36,9 @@
   "bugs": {
     "url": "https://github.com/ckeditor/ckeditor5/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ckeditor5": "^32.0.0"
+  },
   "description": "Text alignment feature for CKEditor 5.",
   "devDependencies": {
     "@ckeditor/ckeditor5-block-quote": "^32.0.0",
